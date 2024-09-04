@@ -4,7 +4,7 @@ Nombre:
 Estrellas:
 Comentarios:
 
-hacer fork a este documento para dejar valoracion
+hacer 'Pull Request' a este documento para dejar valoracion
 En Caso de borrar otras valoraciones se DENEGADA
 
 |______________________________________________________________________________________|

@@ -2,4 +2,4 @@ Sugerencia:
 Por que quieres agregarlo?:
 Plugin de la sugerencia:
 
-Sigue estos pasos y crea un pull request en el archivo "suggestion.txt"
+Sigue estos pasos y crea un 'Pull Request' en el archivo "suggestion.txt"
