@@ -1,0 +1,15 @@
+Review Format:
+
+Name:
+Star:
+Feedback:
+
+Fork this document to leave a rating
+In case of deleting other reviews it will be DENIED
+
+|______________________________________________________________________________________|
+|                            Ratings:                                                  |
+|                                                                                      |
+|                                                                                      |
+|                                                                                      |
+|______________________________________________________________________________________|

@@ -1,0 +1,15 @@
+Formato de reseñas:
+
+Nombre:
+Estrellas:
+Comentarios:
+
+hacer fork a este documento para dejar valoracion
+En Caso de borrar otras valoraciones se DENEGADA
+
+|______________________________________________________________________________________|
+|                            Valoraciones:                                             |
+|                                                                                      |
+|                                                                                      |
+|                                                                                      |
+|______________________________________________________________________________________|
