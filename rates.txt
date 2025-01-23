@@ -11,5 +11,7 @@ In case of deleting other reviews it will be DENIED
 |                            Ratings:                                                  |
 |                                                                                      |
 |                 rates/Jose Rate2.png                                                 |
+|                 rates/Rafa Rate2.png                                                 |
+|                                                                                      |
 |                                                                                      |
 |______________________________________________________________________________________|
