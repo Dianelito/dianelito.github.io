@@ -4,8 +4,18 @@ I'm just starting out in the world of Java
 Python and basic HTML and CSS
 My Name: Dianelito
 
-Hablo español y ingles
+Owner of Dianelito Studios
 
-Ando empezando en el mundo de Java
-Se Python y básico de HTML Y CSS
-Mi Nombre: Dianelito
+⭐Star Products of the Studio:
+
+⭐ Alice Minecraft Bot
+🌟 AutoBuild
+🌟 GameEvents
+
+⭐ = Product already on the market for some time
+🌟 = New Product
+
+
+
+https://discord.gg/fcg6HDVKXy
+https://builtbybit.com/dianelito
