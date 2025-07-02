@@ -40,14 +40,20 @@
   </style>
 </head>
 <body>
-  <h1>¡Bienvenido!</h1>
-  <p>Seleccione una opcion</p>
+  <h1 data-lang-key="welcomeHeader">¡Bienvenido!</h1>
+  <p data-lang-key="selectOption">Seleccione una opcion</p>
 
   <div class="contenedor-botones">
-    <a href="https://discord.gg/fcg6HDVKXy" class="boton">Discord</a>
-    <a class="boton" href="aboutme.html">Sobre mi</a>
-    <a class="boton" href="portafolio.html">Portafolio</a>
+    <a href="https://discord.gg/fcg6HDVKXy" class="boton" data-lang-key="discordButton">Discord</a>
+    <a class="boton" href="aboutme.html" data-lang-key="aboutMeButton">Sobre mi</a>
+    <a class="boton" href="portafolio.html" data-lang-key="portfolioButton">Portafolio</a>
   </div>
+
+  <div style="margin-top: 30px;">
+    <button class="boton" id="languageToggle">English</button>
+  </div>
+
 </body>
-<footer> Ultima Actualizacion: 02/07/25 3:39 pm
+<footer> Ultima Actualizacion: 02/07/25 3:11 pm
+<script src="language.js"></script>
 </html>
