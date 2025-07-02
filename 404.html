@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>404</title>
+  <title data-lang-key="notFoundTitle">404</title>
   <link rel="icon" type="img" href="favicon.ico">
   <style>
     body {
@@ -42,12 +42,18 @@
   </style>
 </head>
 <body>
-  <h1>¡Logro desbloqueado!</h1>
-  <p>Como llegamos aqui?</p>
+  <h1 data-lang-key="achievementUnlocked">¡Logro desbloqueado!</h1>
+  <p data-lang-key="howDidWeGetHere">Como llegamos aqui?</p>
 
   <div class="contenedor-botones">
-    <a class="boton" href="index.html">Regresar</a>
+    <a class="boton" href="index.html" data-lang-key="returnButton">Regresar</a>
   </div>
+
+  <!-- Botón para cambiar idioma -->
+  <div style="margin-top: 30px;">
+    <button class="boton" id="languageToggle">English</button>
+  </div>
+
 </body>
-<footer> Ultima Actualizacion: ???????????????????
+<script src="language.js"></script>
 </html>
