@@ -1,5 +1,0 @@
-Suggestion:
-Why do you want to add it?:
-Suggestion plugin:
-
-Follow these steps and create a pull request in the "suggestion.txt" file
