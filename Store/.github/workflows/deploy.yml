@@ -1,4 +1,4 @@
-name: Deploy Node.js App
+name: TIENDA DIANELITO - Deploy Workflow
 
 on:
   push:
