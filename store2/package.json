@@ -1,0 +1,16 @@
+{
+  "name": "store",
+  "version": "1.0.0",
+  "description": "Store",
+  "main": "tienda.js",
+  "scripts": {
+    "start": "node tienda.js",
+    "dev": "nodemon tienda.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
