@@ -9,6 +9,7 @@ const translations = {
         aboutMeButton: "Sobre mí",
         portfolioButton: "Portafolio",
         languageToggle: "English",
+        StoreButton: "Tienda",
 
 
         // aboutme.html
@@ -49,6 +50,7 @@ const translations = {
         aboutMeButton: "About Me",
         portfolioButton: "Portfolio",
         languageToggle: "Español",
+        StoreButton: "Store",
 
         // aboutme.html
         aboutMeTitle: "About Me",
