@@ -1,6 +1,6 @@
 const translations = {
     es: {
-        LastUpdate: "Ultima actualizacion: 27/09/25 12:24 pm",
+        LastUpdate: "Ultima actualizacion: 27/09/25 12:27 pm",
         // index.html
         homeTitle: "Hogar",
         welcomeHeader: "¡Bienvenido!",
@@ -34,6 +34,7 @@ const translations = {
         chunksLimitedDesc: "Plugin para limitar objetos por chunks. Perfecto para servidores survival que quiera limitar spawners.",
         aliceBotTitle: "Alice Bot",
         aliceBotDesc: "Chat Bot configurable con Conditional Events para que tus usuarios puedan hacer preguntas.",
+        helixdec: "Configurador de los eventos de Helix. Clic para abrir video de mis ultimas creaciones para ellos",
 
         // 404.html
         notFoundTitle: "404",
@@ -42,7 +43,7 @@ const translations = {
         returnButton: "Regresar",
     },
     en: {
-        LastUpdate: "LastUpdate: 27/09/25 12:24 pm",
+        LastUpdate: "LastUpdate: 27/09/25 12:27 pm",
         // index.html
         homeTitle: "Home",
         welcomeHeader: "Welcome!",
@@ -75,6 +76,7 @@ const translations = {
         chunksLimitedDesc: "Plugin to limit items per chunk. Perfect for survival servers that want to limit spawners.",
         aliceBotTitle: "Alice Bot",
         aliceBotDesc: "Configurable Chat Bot with Conditional Events for your users to ask questions.",
+        helixdec: "Helix event configurator. Click to open a video of my latest creations for them",
 
         // 404.html
         notFoundTitle: "404",
