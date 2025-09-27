@@ -1,6 +1,6 @@
 const translations = {
     es: {
-        LastUpdate: "Ultima actualizacion: 27/09/25 12:40 pm",
+        LastUpdate: "Ultima actualizacion: 27/09/25 1:05 pm",
         // index.html
         homeTitle: "Hogar",
         welcomeHeader: "¡Bienvenido!",
@@ -35,7 +35,7 @@ const translations = {
         aliceBotTitle: "Alice Bot",
         aliceBotDesc: "Chat Bot configurable con Conditional Events para que tus usuarios puedan hacer preguntas.",
         helixdec: "Configurador de los eventos de Helix. Clic para abrir video de mis ultimas creaciones para ellos",
-        matangadec: "Configurador de la modalidad Mega Gens y configuracion interna del servidor",
+        matangadec: "Yo Configure la modalidad Mega Gens y configuracion interna del servidor pero ahora esta inactivo el proyecto y yo medio retirado de el",
 
         // 404.html
         notFoundTitle: "404",
@@ -44,7 +44,7 @@ const translations = {
         returnButton: "Regresar",
     },
     en: {
-        LastUpdate: "LastUpdate: 27/09/25 12:40 pm",
+        LastUpdate: "LastUpdate: 27/09/25 1:05 pm",
         // index.html
         homeTitle: "Home",
         welcomeHeader: "Welcome!",
@@ -78,7 +78,7 @@ const translations = {
         aliceBotTitle: "Alice Bot",
         aliceBotDesc: "Configurable Chat Bot with Conditional Events for your users to ask questions.",
         helixdec: "Helix event configurator. Click to open a video of my latest creations for them",
-        matangadec: "Mega Gens mode configurator and internal server configuration",
+        matangadec: "I set up the Mega Gens mode and the internal server configuration, but now the project is inactive and I have somewhat withdrawn from it.",
 
         // 404.html
         notFoundTitle: "404",
