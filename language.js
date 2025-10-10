@@ -1,6 +1,6 @@
 const translations = {
     es: {
-        LastUpdate: "Ultima actualizacion: 27/09/25 1:05 pm",
+        LastUpdate: "Ultima actualizacion: 9/10/25 7:33 pm",
         // index.html
         homeTitle: "Hogar",
         welcomeHeader: "¡Bienvenido!",
@@ -44,7 +44,7 @@ const translations = {
         returnButton: "Regresar",
     },
     en: {
-        LastUpdate: "LastUpdate: 27/09/25 1:05 pm",
+        LastUpdate: "LastUpdate: 9/10/25 7:33 pm",
         // index.html
         homeTitle: "Home",
         welcomeHeader: "Welcome!",
