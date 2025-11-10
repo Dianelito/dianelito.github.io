@@ -1,6 +1,6 @@
 const translations = {
     es: {
-        LastUpdate: "Ultima actualizacion: 9/11/25 10:02 pm",
+        LastUpdate: "Ultima actualizacion: 9/11/25 10:05 pm",
         // index.html
         homeTitle: "Hogar",
         welcomeHeader: "¡Bienvenido!",
@@ -43,9 +43,13 @@ const translations = {
         achievementUnlocked: "¡Logro desbloqueado!",
         howDidWeGetHere: "¿Cómo llegamos aquí?",
         returnButton: "Regresar",
+
+        // build.html
+        build1: "¡En construccion!",
+        build2: "Trabajando en ello",
     },
     en: {
-        LastUpdate: "LastUpdate: 9/11/25 10:02 pm",
+        LastUpdate: "LastUpdate: 9/11/25 10:05 pm",
         // index.html
         homeTitle: "Home",
         welcomeHeader: "Welcome!",
@@ -87,6 +91,10 @@ const translations = {
         achievementUnlocked: "Achievement Unlocked!",
         howDidWeGetHere: "How did we get here?",
         returnButton: "Return",
+
+        // build.html
+        build1: "¡In Work!",
+        build2: "Working",
     }
 };
 
