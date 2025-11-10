@@ -1,12 +1,13 @@
 const translations = {
     es: {
-        LastUpdate: "Ultima actualizacion: 9/11/25 9:26 pm",
+        LastUpdate: "Ultima actualizacion: 9/11/25 10:02 pm",
         // index.html
         homeTitle: "Hogar",
         welcomeHeader: "¡Bienvenido!",
         selectOption: "Seleccione una opción",
         discordButton: "Discord",
         aboutMeButton: "Sobre mí",
+        Comi: "Comisiones",
         portfolioButton: "Portafolio",
         languageToggle: "English",
         StoreButton: "Tienda",
@@ -44,7 +45,7 @@ const translations = {
         returnButton: "Regresar",
     },
     en: {
-        LastUpdate: "LastUpdate: 9/11/25 9:26 pm",
+        LastUpdate: "LastUpdate: 9/11/25 10:02 pm",
         // index.html
         homeTitle: "Home",
         welcomeHeader: "Welcome!",
@@ -55,6 +56,7 @@ const translations = {
         languageToggle: "Español",
         StoreButton: "Store",
         DeluxeMenuEditor: "Editor for DeluxeMenu",
+        Comi: "Works",
 
         // aboutme.html
         aboutMeTitle: "About Me",
