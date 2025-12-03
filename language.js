@@ -1,13 +1,13 @@
 const translations = {
     es: {
-        LastUpdate: "Ultima actualizacion: 9/11/25 10:05 pm",
+        LastUpdate: "Ultima actualizacion: 3/12/25 2:24 pm",
         // index.html
         homeTitle: "Hogar",
         welcomeHeader: "¡Bienvenido!",
         selectOption: "Seleccione una opción",
         discordButton: "Discord",
         aboutMeButton: "Sobre mí",
-        Comi: "Comisiones",
+        Comi: "Reseñas",
         portfolioButton: "Portafolio",
         languageToggle: "English",
         StoreButton: "Tienda",
@@ -47,9 +47,22 @@ const translations = {
         // build.html
         build1: "¡En construccion!",
         build2: "Trabajando en ello",
+
+        // comis.html
+        comisTitle: "Reseñas",
+        comisDescription: "Aquí puedes ver una selección de mis clientes que me contrataron más sus reseñas y que le hice.",
+        comisStarsLabel: "Estrellas:",
+        comisCommentLabel: "Comentario",
+        comisContactLabel: "Como me contacto:",
+        comisWatchVideoButton: "Ver video",
+        michiComment1: '"Buena configuración pero hace falta mejorar en la decoración como usar fuentes de letra distintas, degradados, etc."',
+        jeffersonComment1: '"super trabajo muy eficientes y como lo pedia lo hacen"',
+        jeffersonComment2: '"estupendo trabajo que me realizaron en la creacion del menu de la tienda y add las protecciones, ademas de un buen descuento que obtuve"',
+        heskeyStars: "Estrellas: No dejo valoracion",
+        heskeyComments: "Comentarios: No dejo valoracion",
     },
     en: {
-        LastUpdate: "LastUpdate: 9/11/25 10:05 pm",
+        LastUpdate: "LastUpdate: 3/12/25 2:24 pm",
         // index.html
         homeTitle: "Home",
         welcomeHeader: "Welcome!",
@@ -60,7 +73,7 @@ const translations = {
         languageToggle: "Español",
         StoreButton: "Store",
         DeluxeMenuEditor: "Editor for DeluxeMenu",
-        Comi: "Works",
+        Comi: "Ratings",
 
         // aboutme.html
         aboutMeTitle: "About Me",
@@ -95,6 +108,19 @@ const translations = {
         // build.html
         build1: "¡In Work!",
         build2: "Working",
+
+        // comis.html
+        comisTitle: "Ratings",
+        comisDescription: "Here you can see a selection of my clients who hired me, plus their reviews and what I did for them.",
+        comisStarsLabel: "Stars:",
+        comisCommentLabel: "Comment",
+        comisContactLabel: "How they contacted me:",
+        comisWatchVideoButton: "Watch video",
+        michiComment1: '"Good configuration but needs improvement in decoration such as using different fonts, gradients, etc." original message in Spanish',
+        jeffersonComment1: '"super work, very efficient and they do it as requested" original message in Spanish',
+        jeffersonComment2: '"great job they did for me in creating the store menu and adding protections, plus a good discount I got" original message in Spanish',
+        heskeyStars: "Stars: No rating left",
+        heskeyComments: "Comments: No rating left",
     }
 };
 
