@@ -1,6 +1,6 @@
 const translations = {
     es: {
-        LastUpdate: "Ultima actualizacion: 3/12/25 2:27 pm",
+        LastUpdate: "Ultima actualizacion: 3/12/25 2:58 pm",
         // index.html
         homeTitle: "Hogar",
         welcomeHeader: "¡Bienvenido!",
@@ -60,9 +60,12 @@ const translations = {
         jeffersonComment2: '"estupendo trabajo que me realizaron en la creacion del menu de la tienda y add las protecciones, ademas de un buen descuento que obtuve"',
         heskeyStars: "Estrellas: No dejo valoracion",
         heskeyComments: "Comentarios: No dejo valoracion",
+        allpict: "Mirar todas las fotos",
+        all: "Dale Clic al boton para ver todas las fotos",
+        all2: "Ver todo",
     },
     en: {
-        LastUpdate: "LastUpdate: 3/12/25 2:27 pm",
+        LastUpdate: "LastUpdate: 3/12/25 2:58 pm",
         // index.html
         homeTitle: "Home",
         welcomeHeader: "Welcome!",
@@ -121,6 +124,9 @@ const translations = {
         jeffersonComment2: '"great job they did for me in creating the store menu and adding protections, plus a good discount I got" original message in Spanish',
         heskeyStars: "Stars: No rating left",
         heskeyComments: "Comments: No rating left",
+        allpict: "View all photos",
+        all: "Click the button to see all the photos",
+        all2: "See all",
     }
 };
 
