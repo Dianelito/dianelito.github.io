@@ -1,6 +1,6 @@
 const translations = {
     es: {
-        LastUpdate: "Ultima actualizacion: 3/12/25 2:24 pm",
+        LastUpdate: "Ultima actualizacion: 3/12/25 2:27 pm",
         // index.html
         homeTitle: "Hogar",
         welcomeHeader: "¡Bienvenido!",
@@ -62,7 +62,7 @@ const translations = {
         heskeyComments: "Comentarios: No dejo valoracion",
     },
     en: {
-        LastUpdate: "LastUpdate: 3/12/25 2:24 pm",
+        LastUpdate: "LastUpdate: 3/12/25 2:27 pm",
         // index.html
         homeTitle: "Home",
         welcomeHeader: "Welcome!",
