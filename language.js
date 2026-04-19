@@ -1,6 +1,6 @@
 const translations = {
     es: {
-        LastUpdate: "Ultima actualizacion: 16/04/26 9:03 pm",
+        LastUpdate: "Ultima actualizacion: 19/04/26 10:53 am",
         // index.html
         homeTitle: "Hogar",
         welcomeHeader: "¡Bienvenido!",
@@ -25,6 +25,8 @@ const translations = {
         // portafolio.html
         portfolioTitle: "Portafolio",
         portfolioHeader: "Portafolio",
+        nightboxtitle: "NightBox",
+        nightboxConfigDesc: "Configurador del servidor nightbox.us.",
         knockbackConfigTitle: "Configuración de Knockback",
         knockbackConfigDesc: "Configuración de knockback para servidores PvP. Ideal para combates.",
         beachDesertMapTitle: "Mapa de Playa/Desierto",
@@ -65,7 +67,7 @@ const translations = {
         all2: "Ver todo",
     },
     en: {
-        LastUpdate: "LastUpdate: 16/04/26 9:03 pm",
+        LastUpdate: "LastUpdate: 19/04/26 10:53 am",
         // index.html
         homeTitle: "Home",
         welcomeHeader: "Welcome!",
@@ -89,6 +91,8 @@ const translations = {
         // portafolio.html
         portfolioTitle: "Portfolio",
         portfolioHeader: "Portfolio",
+        nightboxtitle: "NightBox",
+        nightboxConfigDesc: "nightbox.us server configurator.",
         knockbackConfigTitle: "Knockback Configuration",
         knockbackConfigDesc: "Knockback configuration for PvP servers. Ideal for combat.",
         beachDesertMapTitle: "Beach Desert Map",
