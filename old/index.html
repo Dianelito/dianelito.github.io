@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hogar</title>
+  <link rel="icon" type="img" href="favicon.ico">
+  <style>
+    body {
+      background-color: #1e1e1e;
+      color: #ffffff;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #00ffcc;
+    }
+    .boton {
+      display: inline-block;
+      margin: 10px;
+      background-color: #00ffcc;
+      color: #1e1e1e;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .boton:hover {
+      background-color: #00c2a0;
+    }
+    .contenedor-botones {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1 data-lang-key="welcomeHeader">¡Bienvenido!</h1>
+  <p data-lang-key="selectOption">Seleccione una opcion</p>
+
+  <div class="contenedor-botones">
+    <a href="https://discord.gg/fcg6HDVKXy" class="boton" data-lang-key="discordButton">Discord</a>
+    <a class="boton" href="aboutme.html" data-lang-key="aboutMeButton">Sobre mi</a>
+    <a class="boton" href="portafolio.html" data-lang-key="portfolioButton">Portafolio</a>
+    <a class="boton" href="store.html" data-lang-key="StoreButton">Tienda</a>
+  </div>
+
+  <div style="margin-top: 30px;">
+    <a class="boton" href="deluxemenueditor.html" data-lang-key="DeluxeMenuEditor">DeluxeMenuEditor</a>
+    <a class="boton" href="comis.html" data-lang-key="Comi">Reseñas</a>
+  </div>
+
+  <div style="margin-top: 30px;">
+    <button class="boton" id="languageToggle">English</button>
+  </div>
+
+</body>
+<footer data-lang-key="LastUpdate">Ultima Actualizacion: ??/??/?? ??:??</h1>
+<script src="countdown.js"></script>
+<script src="language.js"></script>
+</html>

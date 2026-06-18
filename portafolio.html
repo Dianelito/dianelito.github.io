@@ -1,115 +1,170 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portafolio</title>
-  <link rel="icon" type="img" href="favicon.ico">
-  <style>
-    body {
-      background-color: #1e1e1e;
-      color: #ffffff;
-      font-family: 'Segoe UI', sans-serif;
-      text-align: center;
-      padding: 50px;
-    }
-    h1 {
-      color: #00ffcc;
-    }
-    .proyecto {
-      background-color: #2c2c2c;
-      margin: 20px auto;
-      padding: 20px;
-      border-radius: 8px;
-      max-width: 600px;
-      text-align: left;
-    }
-    .proyecto h2 {
-      color: #00ffcc;
-      margin-bottom: 10px;
-    }
-    .proyecto img {
-      max-width: 100%;
-      border-radius: 6px;
-      margin-bottom: 10px;
-    }
-    a.boton {
-      display: inline-block;
-      margin-top: 30px;
-      background-color: #00ffcc;
-      color: #1e1e1e;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-      transition: background-color 0.3s;
-    }
-    a.boton:hover {
-      background-color: #00c2a0;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de Dianelito. Explora las configuraciones de servidores Minecraft, mapas personalizados y proyectos administrados por mí.">
+  <meta name="keywords" content="Minecraft, NightBox, Knockback, Warp PvP, Chunks Limited, plugins, configuración, servidor">
+  <meta name="author" content="Dianelito">
+  <!-- SEO Open Graph -->
+  <meta property="og:title" content="Dianelito | Portafolio">
+  <meta property="og:description" content="Portafolio de Dianelito. Explora mis trabajos, configuraciones de servidores y mapas personalizados.">
+  <meta property="og:image" content="comis/nightbox_logo.png">
+  <meta property="og:type" content="website">
+  
+  <title data-lang-key="portfolioTitlePage">Dianelito | Portafolio</title>
+  <link rel="icon" type="image/png" href="favicon.ico">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css?v=3.1">
 </head>
-<body>
-  <h1 data-lang-key="portfolioHeader">Portafolio</h1>
+<body data-page="portafolio">
 
-<div class="nightbox">
-    <h2 data-lang-key="nightboxtitle"><a href="https://discord.gg/nightbox" target="_blank">NightBox</a></h2>
-    <img src="comis/nightbox_logo.png" alt="nightbox_logo.png">
-    <p data-lang-key="nightboxConfigDesc">Configurador del servidor nightbox.us.</p>
-    <img src="comis/nightbox_evidencia1.png" alt="nightbox_evidencia1.png">
-  </div>
+  <!-- Navegación principal -->
+  <nav class="site-nav" aria-label="Navegación principal" id="main-nav">
+    <a class="nav-logo" href="index.html">dianelito<span></span></a>
+    <div class="nav-links">
+      <a class="nav-link" data-page-link="inicio" href="index.html" id="nav-home" data-lang-key="navHome">Inicio</a>
+      <a class="nav-link" data-page-link="portafolio" href="portafolio.html" id="nav-portfolio" data-lang-key="navPortfolio">Portafolio</a>
+      <a class="nav-link" data-page-link="productos" href="productos.html" id="nav-products" data-lang-key="navProducts">Productos</a>
+      <a class="nav-link" data-page-link="resenas" href="resenas.html" id="nav-reviews" data-lang-key="navReviews">Reseñas</a>
+      <a class="nav-link" data-page-link="aboutme" href="aboutme.html" id="nav-about" data-lang-key="navAbout">Sobre Mí</a>
+      <button class="lang-btn" id="languageToggle" aria-label="Cambiar idioma">English</button>
+    </div>
+  </nav>
 
-  <div class="knockback">
-    <h2 data-lang-key="knockbackConfigTitle"><a href="https://builtbybit.com/resources/knockback.59550/" target="_blank">Knockback Configuration</a></h2>
-    <img src="https://builtbybit.com/attachments/knockbackpvp-1-png.886213/?variant=display" alt="Knockback config">
-    <p data-lang-key="knockbackConfigDesc">Configuración de knockback para servidores PvP. Ideal para combates.</p>
-  </div>
+  <!-- Contenido principal -->
+  <main class="page-shell">
+    <header class="section-header">
+      <p class="eyebrow" data-lang-key="portfolioEyebrow">Trabajos & Proyectos</p>
+      <h1 class="page-title" data-lang-key="portfolioHeader">Mi Portafolio</h1>
+      <p class="page-subtitle" data-lang-key="portfolioSubtitle">
+        Aquí tienes una muestra de configuraciones, setups y construcciones que he realizado para diferentes servidores y comunidades. Haz clic en las imágenes para verlas en detalle.
+      </p>
+    </header>
 
-  <div class="build1">
-    <h2 data-lang-key="beachDesertMapTitle"><a href="https://builtbybit.com/resources/beach-desert.52813/" target="_blank">Beach Desert Map</a></h2>
-    <img src="https://builtbybit.com/attachments/2024-10-08_14-58-24-png.826163/?variant=display" alt="Beach desert map">
-    <p data-lang-key="beachDesertMapDesc">Mapa estilo playa/desierto con estructuras personalizadas, perfecto para zonas de spawn o eventos de rol.</p>
-  </div>
+    <!-- Rejilla de proyectos -->
+    <div class="grid-layout" id="portfolio-grid">      
+      <!-- NightBox -->
+      <article class="glass-card work-card reveal" style="transition-delay: 50ms;">
+        <div class="work-shot-wrapper">
+          <a class="work-shot-link" href="comis/nightbox_evidencia1.png" aria-label="Agrandar imagen de NightBox">
+            <span class="zoom-icon">+</span>
+          </a>
+          <img src="comis/nightbox_logo.png" alt="NightBox Logo">
+        </div>
+        <h2><a href="https://discord.gg/nightbox" target="_blank" rel="noopener noreferrer">NightBox</a></h2>
+        <p data-lang-key="nightboxConfigDesc">Configurador del servidor nightbox.us.</p>
+      </article>
 
-  <div class="build2">
-    <h2 data-lang-key="warpPvPTitle"><a href="https://builtbybit.com/resources/warp-pvp-500x500.52737/" target="_blank">Warp PvP 500x500</a></h2>
-    <img src="https://builtbybit.com/attachments/2024-10-05_12-00-54-png.824889/?variant=display" alt="Warp PvP">
-    <p data-lang-key="warpPvPDesc">Área PvP de gran tamaño para que tus jugadores puedan pelear.</p>
-  </div>
+      <!-- Helix Event -->
+      <article class="glass-card work-card reveal" style="transition-delay: 100ms;">
+        <div class="work-shot-wrapper">
+          <a class="work-shot-link" href="https://youtu.be/-kN8hmOdfbc" aria-label="Reproducir video de Helix Events">
+            <span class="zoom-icon">▶</span>
+          </a>
+          <img src="https://images-ext-1.discordapp.net/external/gnynJ2g_pJaHyRCUoHGQV4dDAoQLBs_Ll9_LMlrQcqA/%3Fsize%3D4096/https/cdn.discordapp.com/icons/1186532506971930664/b4e1b40c107f9952c0f64dcf2ce6948b.png?format=webp&quality=lossless" alt="Helix Event">
+        </div>
+        <h2><a href="https://youtu.be/-kN8hmOdfbc" target="_blank" rel="noopener noreferrer" data-lang-key="helixTitle">Helix Events</a></h2>
+        <p data-lang-key="helixdec">Configurador de los eventos de Helix. Clic para abrir el video de mis últimas creaciones para ellos.</p>
+      </article>
 
-  <div class="chunks">
-    <h2 data-lang-key="chunksLimitedTitle"><a href="https://builtbybit.com/resources/chunks-limited.52804/" target="_blank">Chunks Limited</a></h2>
-    <img src="https://builtbybit.com/attachments/chunkslimited-png.825451/?variant=display" alt="Chunks Limited plugin">
-    <p data-lang-key="chunksLimitedDesc">Plugin para limitar objetos por chunks. Perfecto para servidores survival que quiera limitar spawners.</p>
-  </div>
+      <!-- Matanga Mega Gens -->
+      <article class="glass-card work-card reveal" style="transition-delay: 150ms;">
+        <div class="work-shot-wrapper">
+          <a class="work-shot-link" href="https://youtu.be/gCfLqbb0kmk" aria-label="Reproducir video de Matanga Server">
+            <span class="zoom-icon">▶</span>
+          </a>
+          <img src="https://images-ext-1.discordapp.net/external/CPOdYdaQpPIUS1J8MMN5IWASct8QeL6KyiYHL2ireWw/%3Fsize%3D4096/https/cdn.discordapp.com/icons/1219718788639887400/e90ebf68dd31e593a26966125050cafa.png?format=webp&quality=lossless&width=968&height=968" alt="Matanga Mega Gens">
+        </div>
+        <h2><a href="https://youtu.be/gCfLqbb0kmk" target="_blank" rel="noopener noreferrer" data-lang-key="matangaTitle">Matanga Server</a></h2>
+        <p data-lang-key="matangadec">Yo configuré la modalidad Mega Gens y la configuración interna del servidor, pero ahora está inactivo el proyecto.</p>
+      </article>
 
-  <div class="alice">
-    <h2 data-lang-key="aliceBotTitle"><a href="https://builtbybit.com/resources/alice-minecraft-bot.53212/" target="_blank">Alice Bot</a></h2>
-    <img src="https://builtbybit.com/attachments/alice-png.860003/?variant=display" alt="Alice bot">
-    <p data-lang-key="aliceBotDesc">Chat Bot configurable con Conditional Events para que tus usuarios puedan hacer preguntas.</p>
-  </div>
+      <!-- Michi_MCYT -->
+      <article class="glass-card work-card reveal" style="transition-delay: 200ms;">
+        <div class="work-shot-wrapper">
+          <a class="work-shot-link" href="https://youtu.be/-kN8hmOdfbc" aria-label="Ver video de Michi_MCYT">
+            <span class="zoom-icon">▶</span>
+          </a>
+          <img src="https://cdn.discordapp.com/avatars/805212610739961868/ecf9230cfde809a4179bf09086e77e2d.png?size=80" alt="Michi_MCYT" style="object-fit: contain; padding: 20px;">
+        </div>
+        <h2><a href="https://youtu.be/-kN8hmOdfbc" target="_blank" rel="noopener noreferrer" data-lang-key="michiTitle">Michi_MCYT</a></h2>
+        <p data-lang-key="michiJobDesc">Configurador y soporte general de servidores de Minecraft para el creador de contenido Michi.</p>
+      </article>
 
-    <div class="helix">
-    <h2 data-lang-key="helix"><a href="https://youtu.be/hWD4pQDBGxc" target="_blank">Helix</a></h2>
-    <img src="https://images-ext-1.discordapp.net/external/gnynJ2g_pJaHyRCUoHGQV4dDAoQLBs_Ll9_LMlrQcqA/%3Fsize%3D4096/https/cdn.discordapp.com/icons/1186532506971930664/b4e1b40c107f9952c0f64dcf2ce6948b.png?format=webp&quality=lossless" alt="Helix">
-    <p data-lang-key="helixdec">Configurador de los eventos de Helix. Clic para abrir video de mis ultimas creaciones para ellos</p>
-  </div>
+      <!-- Diseño -->
+      <article class="glass-card work-card reveal" style="transition-delay: 250ms;">
+        <div class="work-shot-wrapper">
+          <a class="work-shot-link" href="comis/2025-12-06_14.13.56.png" aria-label="Ver captura de Diseño">
+            <span class="zoom-icon">+</span>
+          </a>
+          <img src="comis/2025-12-06_14.13.56.png" alt="Diseño">
+        </div>
+        <h2 data-lang-key="disenoTitle">Diseño</h2>
+        <p data-lang-key="disenoDesc">Te diseño y te hago funcionar ya sea items, MOTD, Menus, TAB, Scoreboards, hologramas y mensajes</p>
+        <div class="gallery-thumbnails">
+          <!-- Hologramas (Jefferson) -->
+          <a class="work-shot-link thumb" href="comis/2025-11-09_21.17.11.png" aria-label="Ver captura 1"><img src="comis/2025-11-09_21.17.11.png" alt="Captura 1"></a>
+          <a class="work-shot-link thumb" href="comis/2025-11-09_21.17.17.png" aria-label="Ver captura 2"><img src="comis/2025-11-09_21.17.17.png" alt="Captura 2"></a>
+          <a class="work-shot-link thumb" href="comis/2025-11-09_21.17.20.png" aria-label="Ver captura 3"><img src="comis/2025-11-09_21.17.20.png" alt="Captura 3"></a>
+          <a class="work-shot-link thumb" href="comis/2025-11-09_21.17.26.png" aria-label="Ver captura 4"><img src="comis/2025-11-09_21.17.26.png" alt="Captura 4"></a>
+          <a class="work-shot-link thumb" href="comis/2025-11-09_21.17.34.png" aria-label="Ver captura 5"><img src="comis/2025-11-09_21.17.34.png" alt="Captura 5"></a>
+          <a class="work-shot-link thumb" href="comis/2025-11-09_21.17.42.png" aria-label="Ver captura 6"><img src="comis/2025-11-09_21.17.42.png" alt="Captura 6"></a>
+          <a class="work-shot-link thumb" href="comis/2025-11-09_21.17.46.png" aria-label="Ver captura 7"><img src="comis/2025-11-09_21.17.46.png" alt="Captura 7"></a>
+          <a class="work-shot-link thumb" href="comis/2025-11-09_21.17.52.png" aria-label="Ver captura 8"><img src="comis/2025-11-09_21.17.52.png" alt="Captura 8"></a>
+          
+          <!-- Diseño de items (Heskey) -->
+          <a class="work-shot-link thumb" href="comis/2025-12-11_10.49.39_2.png" aria-label="Ver captura 9"><img src="comis/2025-12-11_10.49.39_2.png" alt="Captura 9"></a>
+          <a class="work-shot-link thumb" href="comis/2025-11-27_14.22.40.png" aria-label="Ver captura 10"><img src="comis/2025-11-27_14.22.40.png" alt="Captura 10"></a>
+          <a class="work-shot-link thumb" href="comis/2025-11-27_14.22.42.png" aria-label="Ver captura 11"><img src="comis/2025-11-27_14.22.42.png" alt="Captura 11"></a>
+          <a class="work-shot-link thumb" href="comis/2025-11-27_14.22.45.png" aria-label="Ver captura 12"><img src="comis/2025-11-27_14.22.45.png" alt="Captura 12"></a>
+          <a class="work-shot-link thumb" href="comis/2025-11-27_14.22.48.png" aria-label="Ver captura 13"><img src="comis/2025-11-27_14.22.48.png" alt="Captura 13"></a>
+          <a class="work-shot-link thumb" href="comis/2025-11-27_14.22.50.png" aria-label="Ver captura 14"><img src="comis/2025-11-27_14.22.50.png" alt="Captura 14"></a>
+          <a class="work-shot-link thumb" href="comis/2025-12-01_13.14.20.png" aria-label="Ver captura 15"><img src="comis/2025-12-01_13.14.20.png" alt="Captura 15"></a>
+          <a class="work-shot-link thumb" href="comis/2025-12-01_13.15.02.png" aria-label="Ver captura 16"><img src="comis/2025-12-01_13.15.02.png" alt="Captura 16"></a>
+          <a class="work-shot-link thumb" href="comis/2025-12-01_13.15.05.png" aria-label="Ver captura 17"><img src="comis/2025-12-01_13.15.05.png" alt="Captura 17"></a>
+          <a class="work-shot-link thumb" href="comis/2025-12-01_13.15.28.png" aria-label="Ver captura 18"><img src="comis/2025-12-01_13.15.28.png" alt="Captura 18"></a>
+          <a class="work-shot-link thumb" href="comis/2025-12-01_17.23.54.png" aria-label="Ver captura 19"><img src="comis/2025-12-01_17.23.54.png" alt="Captura 19"></a>
 
-    <div class="matanga">
-    <h2 data-lang-key="matanga"><a href="https://youtu.be/gCfLqbb0kmk" target="_blank">Matanga</a></h2>
-    <img src="https://images-ext-1.discordapp.net/external/CPOdYdaQpPIUS1J8MMN5IWASct8QeL6KyiYHL2ireWw/%3Fsize%3D4096/https/cdn.discordapp.com/icons/1219718788639887400/e90ebf68dd31e593a26966125050cafa.png?format=webp&quality=lossless&width=968&height=968" alt="matanga">
-    <p data-lang-key="matangadec">Yo Configure la modalidad Mega Gens y configuracion interna del servidor pero ahora esta inactivo el proyecto y yo medio retirado de el</p>
-  </div>
+          <!-- Diseño de Scoreboards, TAB y NPC (Zlezin) -->
+          <a class="work-shot-link thumb" href="comis/2025-12-06_14.33.54.png" aria-label="Ver captura 20"><img src="comis/2025-12-06_14.33.54.png" alt="Captura 20"></a>
+          <a class="work-shot-link thumb" href="comis/2025-12-06_14.33.59.png" aria-label="Ver captura 21"><img src="comis/2025-12-06_14.33.59.png" alt="Captura 21"></a>
+          <a class="work-shot-link thumb" href="comis/2025-12-06_14.34.05.png" aria-label="Ver captura 22"><img src="comis/2025-12-06_14.34.05.png" alt="Captura 22"></a>
+          <a class="work-shot-link thumb" href="comis/2025-12-06_14.34.13.png" aria-label="Ver captura 23"><img src="comis/2025-12-06_14.34.13.png" alt="Captura 23"></a>
+          <a class="work-shot-link thumb" href="comis/2025-12-06_14.34.17.png" aria-label="Ver captura 24"><img src="comis/2025-12-06_14.34.17.png" alt="Captura 24"></a>
+          <a class="work-shot-link thumb" href="comis/2025-12-06_14.54.59.png" aria-label="Ver captura 25"><img src="comis/2025-12-06_14.54.59.png" alt="Captura 25"></a>
+          <a class="work-shot-link thumb" href="comis/2025-12-06_15.13.21.png" aria-label="Ver captura 26"><img src="comis/2025-12-06_15.13.21.png" alt="Captura 26"></a>
+          <a class="work-shot-link thumb" href="comis/2025-12-06.png" aria-label="Ver captura 27"><img src="comis/2025-12-06.png" alt="Captura 27"></a>
 
-  <a class="boton" href="index.html" data-lang-key="backToHomeButton">Volver al inicio</a>
+          <!-- Creación de Menús y protecciones (Marioguid) -->
+          <a class="work-shot-link thumb" href="comis/2026-04-16_16.03.39.png" aria-label="Ver captura 28"><img src="comis/2026-04-16_16.03.39.png" alt="Captura 28"></a>
+          <a class="work-shot-link thumb" href="comis/Captura de pantalla 2026-04-16 203421.png" aria-label="Ver captura 29"><img src="comis/Captura de pantalla 2026-04-16 203421.png" alt="Captura 29"></a>
+          <a class="work-shot-link thumb" href="comis/Captura de pantalla 2026-04-16 204952.png" aria-label="Ver captura 30"><img src="comis/Captura de pantalla 2026-04-16 204952.png" alt="Captura 30"></a>
+          <a class="work-shot-link thumb" href="comis/Captura de pantalla 2026-04-16 205004.png" aria-label="Ver captura 31"><img src="comis/Captura de pantalla 2026-04-16 205004.png" alt="Captura 31"></a>
+          <a class="work-shot-link thumb" href="comis/Captura de pantalla 2026-04-16 205009.png" aria-label="Ver captura 32"><img src="comis/Captura de pantalla 2026-04-16 205009.png" alt="Captura 32"></a>
+        </div>
+      </article>
 
-  <!-- Botón para cambiar idioma -->
-  <div style="margin-top: 30px;">
-    <button class="boton" id="languageToggle">English</button>
-  </div>
+    </div>
+  </main>
 
+  <!-- Footer -->
+  <footer class="site-footer" id="main-footer">
+    <span>www.dianelito.online</span>
+    <div>
+      <a href="copyright.html" style="text-decoration: underline; margin-right: 15px;" data-lang-key="navCopyright">Copyright</a>
+      <span data-lang-key="footerCredit">Página creada a base de Derivao</span>
+      <span id="year">2026</span>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="language.js?v=3.1"></script>
+  <script src="main.js?v=3.1"></script>
 </body>
-<footer data-lang-key="LastUpdate">Ultima Actualizacion: ??/??/?? ??:??</h1>
-<script src="countdown.js"></script>
-<script src="language.js"></script>
 </html>

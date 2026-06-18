@@ -1,92 +1,155 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sobre mí</title>
-  <link rel="icon" type="img" href="favicon.ico">
-  <style>
-    body {
-      background-color: #1e1e1e;
-      color: #ffffff;
-      font-family: 'Segoe UI', sans-serif;
-      text-align: center;
-      padding: 50px;
-    }
-    h1 {
-      color: #00ffcc;
-    }
-    p {
-      max-width: 600px;
-      margin: auto;
-      line-height: 1.6;
-    }
-    a.boton {
-      display: inline-block;
-      margin-top: 30px;
-      background-color: #00ffcc;
-      color: #1e1e1e;
-      padding: 10px 20px;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-      transition: background-color 0.3s;
-    }
-    a.boton:hover {
-      background-color: #00c2a0;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conoce a Dianelito, configurador de servidores de Minecraft, VPS Linux y creador de contenido. Explora mis redes sociales.">
+  <meta name="keywords" content="Dianelito, sobre mí, biografía, redes sociales, desarrollador Minecraft, VPS Linux, YouTube">
+  <meta name="author" content="Dianelito">
+  <!-- SEO Open Graph -->
+  <meta property="og:title" content="Dianelito | Sobre Mí">
+  <meta property="og:description" content="Conoce a Dianelito, configurador de servidores de Minecraft, VPS Linux y creador de contenido.">
+  <meta property="og:image" content="favicon.ico">
+  <meta property="og:type" content="website">
+  
+  <title data-lang-key="aboutTitlePage">Dianelito | Sobre Mí</title>
+  <link rel="icon" type="image/png" href="favicon.ico">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css?v=3.1">
 </head>
-<body>
-<section>
-  <h1 data-lang-key="aboutMeHeader">Sobre mí</h1>
+<body data-page="aboutme">
 
-  <p data-lang-key="aboutMePara1">Soy <strong>Daniel</strong>, tengo 17 años me apasiona la configuración de servidores, especialmente en Minecraft. Tengo conocimientos básicos de administración en <strong>VPS con Linux y derivados</strong>, lo que me permite montar y mantener infraestructuras funcionales para comunidades de juego.</p>
-  <p data-lang-key="aboutMePara2">También soy creador de contenido: tengo un canal de <strong>YouTube</strong> donde subo videos relacionados con Minecraft, desde gameplay hasta configuraciones útiles para la comunidad.</p>
-</section>
+  <!-- Navegación principal -->
+  <nav class="site-nav" aria-label="Navegación principal" id="main-nav">
+    <a class="nav-logo" href="index.html">dianelito<span></span></a>
+    <div class="nav-links">
+      <a class="nav-link" data-page-link="inicio" href="index.html" id="nav-home" data-lang-key="navHome">Inicio</a>
+      <a class="nav-link" data-page-link="portafolio" href="portafolio.html" id="nav-portfolio" data-lang-key="navPortfolio">Portafolio</a>
+      <a class="nav-link" data-page-link="productos" href="productos.html" id="nav-products" data-lang-key="navProducts">Productos</a>
+      <a class="nav-link" data-page-link="resenas" href="resenas.html" id="nav-reviews" data-lang-key="navReviews">Reseñas</a>
+      <a class="nav-link" data-page-link="aboutme" href="aboutme.html" id="nav-about" data-lang-key="navAbout">Sobre Mí</a>
+      <button class="lang-btn" id="languageToggle" aria-label="Cambiar idioma">English</button>
+    </div>
+  </nav>
 
-<section>
-  <h2 data-lang-key="socialMediaHeader">Mis Redes Sociales</h2>
-  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-top: 20px;">
-    <a href="https://youtube.com/@Dianeliton" target="_blank">
-      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" alt="YouTube" width="32" style="filter: invert(100%);" />
-    </a>
-    <a href="https://youtube.com/@DianelitoStudios" target="_blank">
-      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" alt="YouTube Studio" width="32" style="filter: invert(100%);" />
-    </a>
-    <a href="https://tiktok.com/@dianelito_oficial" target="_blank">
-      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tiktok.svg" alt="TikTok" width="32" style="filter: invert(100%);" />
-    </a>
-    <a href="https://x.com/cazador_real2" target="_blank">
-      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="X (Twitter)" width="32" style="filter: invert(100%);" />
-    </a>
-    <a href="https://instagram.com/dianelito_oficial" target="_blank">
-      <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" width="32" style="filter: invert(100%);" />
-    </a>
-    <a href="https://www.twitch.tv/dianelito_oficial" target="_blank">
-      <img src="https://img.freepik.com/vector-premium/twitch-vector-logo-twitch-vector-icono-logotipo-social-media-blanco-negro_901408-475.jpg" alt="Twitch" width="32" />
-    </a>
-    <a href="https://builtbybit.com/creators/dianelito.389844" target="_blank">
-      <img src="https://builtbybit.com/favicon.ico" alt="BuiltByBit" width="32" />
-    </a>
-    <a href="https://www.spigotmc.org/resources/authors/dianelito.1242137/" target="_blank">
-      <img src="https://spigotmc.org/favicon.ico" alt="SpigotMC" width="32" />
-    </a>
-    <a href="https://github.com/Dianelito" target="_blank">
-      <img src="https://github.com/favicon.ico" alt="GitHub" width="32" />
-    </a>
-    <a href="https://polymart.org/user/45347/dianelito" target="_blank">
-      <img src="https://raw.githubusercontent.com/Dianelito/dianelito.github.io/refs/heads/main/polymart.png" alt="polymart" width="32" />
-    </a>
-  </div>
-</section>
+  <!-- Contenido principal -->
+  <main class="page-shell">
+    <div class="about-layout">
+      
+      <!-- Visual de Perfil -->
+      <section class="about-visual reveal" style="transition-delay: 50ms;" aria-label="Foto de perfil">
+        <img id="aboutProfileImage" src="favicon.ico" alt="Avatar de Dianelito" style="transform: scale(0.8); object-fit: contain; padding: 20px;">
+      </section>
 
-<a class="boton" href="index.html">Volver al inicio</a>
+      <!-- Contenido Escrito -->
+      <section class="about-content" aria-labelledby="about-heading">
+        <div class="section-header" style="margin-bottom: 20px;">
+          <p class="eyebrow" data-lang-key="aboutMeTitle">Conóceme</p>
+          <h1 class="page-title" id="about-heading" data-lang-key="aboutMeHeader">Sobre Mí</h1>
+        </div>
+
+        <div class="about-text reveal" style="transition-delay: 150ms;">
+          <p data-lang-key="aboutMePara1">
+            Soy <strong>Daniel</strong>, me apasiona la configuración de servidores (especialmente en Minecraft) y la <span class="ai-glow">inteligencia artificial</span>. Tengo conocimientos básicos de administración en <strong>VPS con Linux y derivados</strong>, lo que me permite montar y mantener infraestructuras funcionales para comunidades de juego.
+          </p>
+          <br>
+          <p data-lang-key="aboutMePara2">
+            Tengo dos canales de <strong>YouTube</strong> donde subo videos relacionados con Minecraft, desde gameplays hasta productos que vendo para la comunidad.
+          </p>
+          <br>
+          <p data-lang-key="aboutMePara3">
+            Tengo mi <strong>Estudio</strong> donde puedes contratarme vía ticket: <a href="https://discord.gg/fcg6HDVKXy" target="_blank" rel="noopener noreferrer" class="discord-link">discord.gg/fcg6HDVKXy</a>
+          </p>
+        </div>
+
+        <!-- Redes Sociales -->
+        <div class="reveal" style="transition-delay: 250ms;">
+          <h2 class="eyebrow" style="font-size: 0.76rem; margin-bottom: 12px;" data-lang-key="socialMediaHeader">Mis Redes Sociales</h2>
+          
+          <div class="social-grid" id="social-links">
+            <!-- YouTube Dianeliton -->
+            <a class="social-card" href="https://youtube.com/@Dianeliton" target="_blank" rel="noopener noreferrer">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" alt="YouTube" aria-hidden="true">
+              <span>@Dianeliton</span>
+            </a>
+
+            <!-- YouTube DianelitoStudios -->
+            <a class="social-card" href="https://youtube.com/@DianelitoStudios" target="_blank" rel="noopener noreferrer">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" alt="YouTube" aria-hidden="true">
+              <span>@DianelitoStudios</span>
+            </a>
+
+            <!-- TikTok -->
+            <a class="social-card" href="https://tiktok.com/@dianelito_oficial" target="_blank" rel="noopener noreferrer">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tiktok.svg" alt="TikTok" aria-hidden="true">
+              <span>TikTok</span>
+            </a>
+
+            <!-- X -->
+            <a class="social-card" href="https://x.com/cazador_real2" target="_blank" rel="noopener noreferrer">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/x.svg" alt="X (Twitter)" aria-hidden="true">
+              <span>X / Twitter</span>
+            </a>
+
+            <!-- Instagram -->
+            <a class="social-card" href="https://instagram.com/dianelito_oficial" target="_blank" rel="noopener noreferrer">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" aria-hidden="true">
+              <span>Instagram</span>
+            </a>
+
+            <!-- Twitch -->
+            <a class="social-card" href="https://www.twitch.tv/dianelito_oficial" target="_blank" rel="noopener noreferrer">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/twitch.svg" alt="Twitch" aria-hidden="true">
+              <span>Twitch</span>
+            </a>
+
+            <!-- BuiltByBit -->
+            <a class="social-card" href="https://builtbybit.com/creators/dianelito.389844" target="_blank" rel="noopener noreferrer">
+              <img src="favicon.ico" alt="BuiltByBit" style="filter: none;" aria-hidden="true">
+              <span>BuiltByBit</span>
+            </a>
+
+            <!-- SpigotMC -->
+            <a class="social-card" href="https://www.spigotmc.org/resources/authors/dianelito.1242137/" target="_blank" rel="noopener noreferrer">
+              <img src="https://github.com/favicon.ico" alt="SpigotMC" aria-hidden="true">
+              <span>SpigotMC</span>
+            </a>
+
+            <!-- GitHub -->
+            <a class="social-card" href="https://github.com/Dianelito" target="_blank" rel="noopener noreferrer">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/github.svg" alt="GitHub" aria-hidden="true">
+              <span>GitHub</span>
+            </a>
+
+            <!-- Polymart -->
+            <a class="social-card" href="https://polymart.org/user/45347/dianelito" target="_blank" rel="noopener noreferrer">
+              <img src="polymart.png" alt="Polymart" style="filter: none;" aria-hidden="true">
+              <span>Polymart</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="main-footer">
+    <span>www.dianelito.online</span>
+    <div>
+      <a href="copyright.html" style="text-decoration: underline; margin-right: 15px;" data-lang-key="navCopyright">Copyright</a>
+      <span data-lang-key="footerCredit">Página creada a base de Derivao</span>
+      <span id="year">2026</span>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="language.js?v=3.1"></script>
+  <script src="main.js?v=3.1"></script>
 </body>
-  <div style="margin-top: 30px;">
-    <button class="boton" id="languageToggle">English</button>
-  </div>
-<footer data-lang-key="LastUpdate">Ultima Actualizacion: ??/??/?? ??:??</h1>
-<script src="countdown.js"></script>
-<script src="language.js"></script>
 </html>

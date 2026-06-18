@@ -1,66 +1,97 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hogar</title>
-  <link rel="icon" type="img" href="favicon.ico">
-  <style>
-    body {
-      background-color: #1e1e1e;
-      color: #ffffff;
-      font-family: 'Segoe UI', sans-serif;
-      text-align: center;
-      padding: 50px;
-    }
-    h1 {
-      color: #00ffcc;
-    }
-    .boton {
-      display: inline-block;
-      margin: 10px;
-      background-color: #00ffcc;
-      color: #1e1e1e;
-      padding: 12px 24px;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-      transition: background-color 0.3s;
-    }
-    .boton:hover {
-      background-color: #00c2a0;
-    }
-    .contenedor-botones {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 20px;
-      margin-top: 20px;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio de Dianelito: Configuración de servidores Minecraft, VPS Linux, creación de plugins, bases de datos y bots.">
+  <meta name="keywords" content="Dianelito, Minecraft, Minecraft Server, Minecraft config, BuiltByBit, SpigotMC, DChunkLoader, MayDPartner, VPS Linux">
+  <meta name="author" content="Dianelito">
+  <!-- SEO Open Graph -->
+  <meta property="og:title" content="Dianelito | Inicio">
+  <meta property="og:description" content="Portafolio de Dianelito: Configuración de servidores Minecraft, VPS Linux y plugins.">
+  <meta property="og:image" content="favicon.ico">
+  <meta property="og:type" content="website">
+  
+  <title data-lang-key="homeTitlePage">Dianelito | Inicio</title>
+  <link rel="icon" type="image/png" href="favicon.ico">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Montserrat:wght@800;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css?v=3.1">
 </head>
-<body>
-  <h1 data-lang-key="welcomeHeader">¡Bienvenido!</h1>
-  <p data-lang-key="selectOption">Seleccione una opcion</p>
+<body data-page="inicio">
 
-  <div class="contenedor-botones">
-    <a href="https://discord.gg/fcg6HDVKXy" class="boton" data-lang-key="discordButton">Discord</a>
-    <a class="boton" href="aboutme.html" data-lang-key="aboutMeButton">Sobre mi</a>
-    <a class="boton" href="portafolio.html" data-lang-key="portfolioButton">Portafolio</a>
-    <a class="boton" href="store.html" data-lang-key="StoreButton">Tienda</a>
-  </div>
+  <!-- Navegación principal -->
+  <nav class="site-nav" aria-label="Navegación principal" id="main-nav">
+    <a class="nav-logo" href="index.html">dianelito<span></span></a>
+    <div class="nav-links">
+      <a class="nav-link" data-page-link="inicio" href="index.html" id="nav-home" data-lang-key="navHome">Inicio</a>
+      <a class="nav-link" data-page-link="portafolio" href="portafolio.html" id="nav-portfolio" data-lang-key="navPortfolio">Portafolio</a>
+      <a class="nav-link" data-page-link="productos" href="productos.html" id="nav-products" data-lang-key="navProducts">Productos</a>
+      <a class="nav-link" data-page-link="resenas" href="resenas.html" id="nav-reviews" data-lang-key="navReviews">Reseñas</a>
+      <a class="nav-link" data-page-link="aboutme" href="aboutme.html" id="nav-about" data-lang-key="navAbout">Sobre Mí</a>
+      <button class="lang-btn" id="languageToggle" aria-label="Cambiar idioma">English</button>
+    </div>
+  </nav>
 
-  <div style="margin-top: 30px;">
-    <a class="boton" href="deluxemenueditor.html" data-lang-key="DeluxeMenuEditor">DeluxeMenuEditor</a>
-    <a class="boton" href="comis.html" data-lang-key="Comi">Reseñas</a>
-  </div>
+  <!-- Contenido principal -->
+  <main class="page-shell home-shell" id="primary-content">
+    <!-- Banner de Eventos / Promociones Temporales -->
+    <div id="temp-event-banner" class="banner-card reveal is-hidden" style="transition-delay: 50ms; margin-bottom: 30px;">
+      <!-- El contenido se genera dinámicamente -->
+    </div>
 
-  <div style="margin-top: 30px;">
-    <button class="boton" id="languageToggle">English</button>
-  </div>
+    <section class="home-grid" aria-labelledby="hero-heading">
+      <div class="home-copy">
+        <p class="eyebrow reveal" data-lang-key="homeEyebrow" style="transition-delay: 50ms;">Desarrollador & Configurador</p>
+        <h1 class="hero-title reveal" id="hero-heading" data-lang-key="homeWelcomeHeader" style="transition-delay: 150ms;">Hola, soy Dianelito</h1>
+        <p class="hero-desc reveal" data-lang-key="homeDescription" style="transition-delay: 250ms;">
+          Tengo amplia experiencia en la configuración de servidores de Minecraft, administración de VPS en Linux y creación de herramientas personalizadas. ¡Descubre mis plugins y mejora el rendimiento de tu comunidad!
+        </p>
 
+        <div class="hero-actions reveal" style="transition-delay: 350ms;">
+          <a class="btn primary" href="portafolio.html" id="action-portfolio" data-lang-key="homeViewWork">Ver Trabajos</a>
+          <a class="btn ghost" href="productos.html" id="action-products" data-lang-key="homeViewProducts">Ver Productos</a>
+        </div>
+      </div>
+
+      <!-- Tarjeta de Discord en tiempo real -->
+      <a class="discord-avatar-link reveal" href="https://discord.gg/fcg6HDVKXy" target="_blank" rel="noopener noreferrer" aria-label="Unirse al Discord de Dianelito" id="discord-card" style="transition-delay: 200ms;">
+        <span class="status-dot offline" id="indexStatusDot" aria-label="Estado de Discord"></span>
+        <img id="indexDiscordAvatar" src="favicon.ico" alt="Avatar de Discord de Dianelito">
+        <span class="avatar-name" id="discordName">Dianelito</span>
+        
+        <div class="discord-status-panel" id="discordStatusPanel">
+          <span class="discord-status-kicker" id="discordActivityKicker" data-lang-key="discordKicker">Discord</span>
+          <small id="discordStatusText" data-lang-key="discordConnecting">Conectando...</small>
+          
+          <div class="discord-activity-row is-hidden" id="discordActivityRow">
+            <img class="discord-activity-image" id="discordActivityImage" src="favicon.ico" alt="" aria-hidden="true">
+            <div class="discord-activity-copy">
+              <strong class="discord-activity-title" id="discordActivityText">Leyendo actividad...</strong>
+              <small class="discord-activity-subtext" id="discordActivitySubtext">Cargando...</small>
+            </div>
+          </div>
+        </div>
+      </a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="main-footer">
+    <span>www.dianelito.online</span>
+    <div>
+      <a href="copyright.html" style="text-decoration: underline; margin-right: 15px;" data-lang-key="navCopyright">Copyright</a>
+      <span data-lang-key="footerCredit">Página creada a base de Derivao</span>
+      <span id="year">2026</span>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="language.js?v=3.1"></script>
+  <script src="main.js?v=3.1"></script>
 </body>
-<footer data-lang-key="LastUpdate">Ultima Actualizacion: ??/??/?? ??:??</h1>
-<script src="countdown.js"></script>
-<script src="language.js"></script>
 </html>
