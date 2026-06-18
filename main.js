@@ -645,8 +645,8 @@ function updateTemporaryEvent() {
   const banner = document.getElementById("temp-event-banner");
   if (!banner) return;
 
-  const birthdayTarget = new Date("2026-06-18T09:00:00-06:00");
-  const promoStart = new Date("2026-06-19T09:00:00-06:00");
+  const birthdayTarget = new Date("2026-06-18T09:10:00-06:00");
+  const promoStart = new Date("2026-06-19T09:10:00-06:00");
   const promoEnd = new Date("2026-07-01T00:00:00-06:00");
 
   const now = new Date();
