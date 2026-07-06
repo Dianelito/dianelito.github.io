@@ -78,6 +78,7 @@ const translations = {
         michiCommentJefferson1: '"super trabajo muy eficientes y como lo pedia lo hacen"',
         michiCommentJefferson2: '"estupendo trabajo que me realizaron en la creacion del menu de la tienda y add las protecciones, ademas de un buen descuento que obtuve"',
         michiComment1: '"Buena configuración pero hace falta mejorar en la decoración como usar fuentes de letra distintas, degradados, etc. (¡Mejorado en este nuevo portafolio!)"',
+        reviewBackedMCComment: '"Buen trabajo, velocidad excepcional y calidad objetiva"',
         noCommentText: "Proyecto completado con éxito. Valoración implícita de 5 estrellas (Sin comentarios escritos).",
 
         // aboutme.html
@@ -196,6 +197,7 @@ const translations = {
         michiCommentJefferson1: '"super work, very efficient and they do it as requested"',
         michiCommentJefferson2: '"great job they did for me in creating the store menu and adding protections, plus a good discount I got"',
         michiComment1: '"Good configuration but needs improvement in decoration such as using different fonts, gradients, etc. (Improved in this new portfolio!)"',
+        reviewBackedMCComment: '"Good job, exceptional speed and objective quality"',
         noCommentText: "Project completed successfully. Implicit 5-star rating (No written comments).",
 
         // aboutme.html
